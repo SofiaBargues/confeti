@@ -20,7 +20,7 @@ const Confetti = () => {
   }, [windowDimension]);
   return (
     <>
-      <button onClick={() => setBtn(!Btn)}>Confetti Run</button>
+      <button onClick={() => setBtn(!Btn)}>Take a party</button>
 
       {Btn && (
         <ReactConfetti
